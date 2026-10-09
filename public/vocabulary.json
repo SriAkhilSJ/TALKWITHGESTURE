@@ -1,0 +1,18 @@
+{
+  "model": "ISL alphabet FFNN (A-Z)",
+  "disclaimer": "This is a controlled public-service vocabulary built on alphabet recognition. It is not a full Indian Sign Language translator.",
+  "entries": [
+    { "sign": "HELP", "shortcut": "H", "letters": "HELP", "phrase": "I NEED HELP", "category": "assistance" },
+    { "sign": "TICKET", "shortcut": "T", "letters": "TICKET", "phrase": "I NEED A TICKET", "category": "travel" },
+    { "sign": "POLICE", "shortcut": "P", "letters": "POLICE", "phrase": "I NEED THE POLICE", "category": "emergency" },
+    { "sign": "HOSPITAL", "shortcut": "O", "letters": "HOSPITAL", "phrase": "I NEED A HOSPITAL", "category": "emergency" },
+    { "sign": "WATER", "shortcut": "W", "letters": "WATER", "phrase": "I NEED WATER", "category": "assistance" },
+    { "sign": "YES", "shortcut": "Y", "letters": "YES", "phrase": "YES", "category": "response" },
+    { "sign": "NO", "shortcut": "N", "letters": "NO", "phrase": "NO", "category": "response" },
+    { "sign": "THANK YOU", "shortcut": "K", "letters": "THANKS", "phrase": "THANK YOU", "category": "courtesy" },
+    { "sign": "WHERE", "shortcut": "R", "letters": "WHERE", "phrase": "WHERE IS IT", "category": "travel" },
+    { "sign": "MONEY", "shortcut": "M", "letters": "MONEY", "phrase": "I NEED TO PAY", "category": "transaction" },
+    { "sign": "REPEAT", "shortcut": "E", "letters": "REPEAT", "phrase": "PLEASE REPEAT", "category": "assistance" },
+    { "sign": "STOP", "shortcut": "S", "letters": "STOP", "phrase": "PLEASE STOP", "category": "response" }
+  ]
+}

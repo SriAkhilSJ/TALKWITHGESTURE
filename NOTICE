@@ -1,0 +1,32 @@
+ISL Counter
+===========
+
+This product includes original application code for an offline public-service
+Indian Sign Language communication assistant.
+
+Third-party notices
+-------------------
+
+ISL-Vision
+Copyright (c) RecursiveByte
+License: MIT
+Source: https://github.com/RecursiveByte/ISL-Vision
+
+The landmark-based alphabet classifier (`hand_landmark_dnn.keras`) and its
+StandardScaler (`scaler.pkl`) were trained by the ISL-Vision project. Browser
+weights in `public/models/isl-ffnn/` are a lossless extraction of that model
+for local inference. Architecture, preprocessing, and class mapping follow
+the ISL-Vision pipeline.
+
+MediaPipe Hands
+Copyright (c) Google LLC
+Used via the `@mediapipe/hands` package for on-device landmark detection.
+
+TensorFlow.js
+Copyright (c) Google LLC
+Optional in-browser inference runtime.
+
+Dataset reference (not redistributed):
+Indian Sign Language Hand Landmarks Dataset
+https://www.kaggle.com/datasets/eraakash/indian-sign-language-hand-landmarks-dataset
+Check the Kaggle page for the dataset license before redistributing data.
